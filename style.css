@@ -185,6 +185,12 @@ div.conditions {
     div.explication img.ongles{
         display: none;
     }
+    div.explication img.ongles1 {
+        display : none;
+    }
+    div.explication img.ongles2 {
+        display : none;
+    }
     div.contenurev p {
         text-align: left;
     }
