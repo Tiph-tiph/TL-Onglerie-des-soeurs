@@ -1,0 +1,219 @@
+/*commentaire*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "questa-grande", serif;
+    font-weight: 100;
+    font-style: normal;}
+h1{
+    color:#a2797b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+h2{
+    color: #B58789;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+h3{
+    color: #B58789;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+body background  {
+    color: #D9CCCE;
+}
+img.icone{
+    width: 30px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+section{
+    background-image: url(image/image1.png);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+H1.presentation {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    counter-increment: inherit;
+    font-size: 30px;
+    color: white;
+    text-shadow: black 0 0 15px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -3px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #a2797b;
+    transition: 0.3s;
+}
+a:hover{
+    color: #d7c2c2;
+}
+a.active {
+    text-decoration: underline;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style-type: none;
+    transition: 0.3s;
+} 
+img.logomarque {
+    width: 27%;
+    border-radius: 8%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+div.entete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+img.photodecouvrir {
+    width: 20%;
+    border-radius: 10%;
+}
+img.ongles {
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+img.ongles1 {
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+img.ongles2 {
+    width: 25%;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-bottom: 20px
+}
+div.prestation {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+div.prestation:hover {
+box-shadow: #B58789 0 0 20px;
+}
+div.explication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.grille-images{
+    padding: none;
+}
+div.taille {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+div.explication-reverse {
+    flex-direction: row-reverse;
+}
+h2.titre {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-weight: 550;
+}
+div.contenu {
+    padding-left: 1%;
+    padding-right: 4%;   
+}
+div.contenurev {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: right;
+}
+div.intro {
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+div.info {
+    margin-bottom: 40px;
+}
+div.conditions {
+    margin-bottom: 5px;
+    background-color: rgb(223, 223, 223);
+    padding: 2%;
+}
+@media screen and (max-width : 900px) {
+    div.explication img.ongles{
+        display: none;
+    }
+    div.contenurev p {
+        text-align: left;
+    }
+    div.intro p {
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width : 600px) {
+    div.entete img.logomarque {
+        width: 30%;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    div.entete ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin: 10px;
+    }
+    div.entete {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.entete a {
+        text-align: center;
+    }
+    div.intro p {
+        margin-right: 25px;
+    }
+}
