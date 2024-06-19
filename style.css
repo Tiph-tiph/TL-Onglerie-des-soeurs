@@ -222,4 +222,7 @@ div.conditions {
     div.intro p {
         margin-right: 25px;
     }
+    div.taille margin top {
+        display : none;
+    }
 }
